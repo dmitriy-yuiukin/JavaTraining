@@ -82,7 +82,7 @@ public class MyLinkedList<E> {
                 size--;
                 return;
             } else {
-                temp.getNext();
+                temp = temp.getNext();
                 count++;
             }
         }
